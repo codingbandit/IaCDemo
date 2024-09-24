@@ -31,8 +31,8 @@ jobs:
 
     # Terraform Plan
     - name: 'Terraform Plan'
-      run: terraform plan
+      run: terraform plan -input=false
 
     # Terraform Apply
     - name: 'Terraform Apply'
-      run: terraform apply -auto-approve
+      run: terraform apply -auto-approve -input=false
