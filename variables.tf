@@ -10,3 +10,9 @@ variable "location" {
   default     = "eastus"
 }
 
+variable "storage_account_name" {
+  description = "Storage Account Name"
+  type        = string
+  default     = "techbash2024demo2storage"
+}
+
