@@ -16,3 +16,17 @@ variable "location" {
   default     = "eastus"
 }
 
+variable "client_id" {
+  description = "The client ID for the Service Principal"
+  type        = string
+}
+
+variable "client_secret" {
+  description = "The client secret for the Service Principal"
+  type        = string
+}
+
+variable "tenant_id" {
+  description = "The tenant ID for the Service Principal"
+  type        = string
+}
