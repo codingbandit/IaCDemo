@@ -1,7 +1,7 @@
 variable "rg_name" {
   description = "Resource Group Name"
   type        = string
-  default     = "techbashghactions"
+  default     = "live360actions"
 }
 
 variable "location" {
@@ -13,6 +13,6 @@ variable "location" {
 variable "storage_account_name" {
   description = "Storage Account Name"
   type        = string
-  default     = "techbash2024demo2storage"
+  default     = "live360demo2storage"
 }
 

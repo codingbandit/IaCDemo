@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "techbash2"
-    storage_account_name = "techbashstoragetf"
+    resource_group_name  = "live360"
+    storage_account_name = "tfstoragelive360"
     container_name       = "ghactionsinfrastate"
     key                  = "terraform.tfstate"
   }
