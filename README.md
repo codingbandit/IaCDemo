@@ -1,1 +1,1 @@
-# Welcome to Live360! :D
+# Welcome to Live360! Have a great day!
